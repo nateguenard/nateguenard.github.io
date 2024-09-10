@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+section {
+    background-color: yellow;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+.darkbluetext{
+    color: rgb(21, 21, 203);
+}
+nav {
+    background-color: aliceblue;
+    border-bottom: 5px solid green;
+    padding: 18px;
+    margin: 0 0 15px 0;
+}
+hr {
+    border-style: none;
+    border: 12px dotted grey;
+    width: 50%;
+    margin: 20px auto;
+}
+.one{
+    border: solid 10px black;
+    background-color: aliceblue;
+}
+.two{
+    border: solid 20px black;
+    background-color: aqua;
+    margin-left: 120px;
+}
+.three{
+    border: solid 10px black;
+    background-color: aquamarine;
+    margin-left: 260px;
+}
+div{
+    height: 100px;
+    width: 100px; 
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: #fcfcfc;
+}
+.card:hover{
+    background-color: aliceblue;
+}

@@ -1,0 +1,105 @@
+body {
+    margin: 2 2 2 2;
+    background-color: aliceblue;
+}
+
+nav{
+    display: flex; 
+    font-family: "Baskervville SC", serif;
+    justify-content: space-between; 
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.2cm;
+    background-color: rgb(165, 181, 188);
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgb(34, 33, 33);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 242, 232);
+    padding: 1cm;
+    border: 1px solid;
+    border-color: rgb(156, 178, 195);
+}
+
+.splash{
+    background-color: rgb(191, 204, 216);
+    text-align: center;
+    padding: 0.5cm;
+    margin-top: 0.5cm;
+}
+
+h1{
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: Bold;
+}
+img{
+    border: 3px solid;
+    border-color: rgb(73, 108, 73);
+    border-radius: 5cm;
+    margin: center;
+}
+
+.address {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.tagline {
+    font-style: italic;
+}
+hr{
+    border: 1px solid black;
+    border-style: inset;
+}
+h2{
+    display: flex;
+    border-radius: 2px;
+    background-color:  rgb(191, 204, 216);
+    font-family: "Baskervville SC", serif;
+    text-decoration-line: underline;
+    color: rgb(19, 50, 40);
+}
+.education{
+    display: flex;
+    border-radius: 4px;
+    background-color:  rgb(222, 227, 233);
+    padding: 0.5cm;
+    margin-top: 0.08cm;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+dt{
+  display: grid;
+  align-items: start;
+  grid-template-columns: 150px 1fr;
+  background-color:  rgb(222, 227, 233);
+}
+dd {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 150px 1fr;
+  background-color:  rgb(222, 227, 233);
+}
+
+
+ul {
+    background-color:  rgb(222, 227, 233);
+    padding: 0.5cm;
+    margin-top: 0.08cm;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 200;
+    font-style: normal;
+    list-style-type: square;
+}
