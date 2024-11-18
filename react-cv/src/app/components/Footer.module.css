@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color:rgb(73, 108, 73);
+  }
+  a::before {
+    content: "🔗 "; 
+  }
+  a:hover{
+    text-decoration: underline;
+    color:rgb(90, 131, 90);
+  }
+  
+  a:hover::before {
+    content: "➡️ "; 
+  }

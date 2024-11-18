@@ -1,0 +1,17 @@
+ul {
+    background-color:  rgb(222, 227, 233);
+    padding: 0.5cm;
+    margin-top: 0.08cm;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 200;
+    font-style: normal;
+    list-style-type: square;
+}
+h2{
+    display: flex;
+    border-radius: 2px;
+    background-color:  rgb(191, 204, 216);
+    font-family: "Baskervville SC", serif;
+    text-decoration-line: underline;
+    color: rgb(19, 50, 40);
+}

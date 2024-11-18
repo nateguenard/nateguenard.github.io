@@ -1,0 +1,38 @@
+h2{
+    display: flex;
+    border-radius: 2px;
+    background-color:  rgb(191, 204, 216);
+    font-family: "Baskervville SC", serif;
+    text-decoration-line: underline;
+    color: rgb(19, 50, 40);
+}
+.card {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+.three_col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+}
+ul {
+    background-color:  rgb(222, 227, 233);
+    padding: 0.5cm;
+    margin-top: 0.08cm;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 200;
+    font-style: normal;
+    list-style-type: square;
+}
+.styled-image {
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    border: 5px solid #ddd; 
+    border-radius: 10px; 
+    margin: 20px 0; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+}

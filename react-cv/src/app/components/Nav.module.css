@@ -1,0 +1,50 @@
+nav{
+    display: flex; 
+    font-family: "Baskervville SC", serif;
+    justify-content: space-between; 
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.2cm;
+    background-color: rgb(165, 181, 188);
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgb(34, 33, 33);
+}
+h1{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: Bold;
+}
+img{
+    border: 3px solid;
+    border-color: rgb(73, 108, 73);
+    border-radius: 5cm;
+    margin: center;
+}
+.address {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.tagline {
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color:rgb(73, 108, 73);
+}
+a::before {
+    content: "🔗 "; 
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(90, 131, 90);
+}
+  
+a:hover::before {
+    content: "➡️ "; 
+}
